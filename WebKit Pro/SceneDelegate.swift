@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  WebKit Pro
-//
-//  Created by Zack Qattan on 12/9/20.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

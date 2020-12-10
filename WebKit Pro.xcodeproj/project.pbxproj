@@ -13,6 +13,7 @@
 		E82E445B2581974F0029B3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82E44592581974F0029B3AE /* Main.storyboard */; };
 		E82E445D258197510029B3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82E445C258197510029B3AE /* Assets.xcassets */; };
 		E82E4460258197510029B3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82E445E258197510029B3AE /* LaunchScreen.storyboard */; };
+		E82E44712581A6D90029B3AE /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E44702581A6D90029B3AE /* PaddedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E82E445C258197510029B3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82E445F258197510029B3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E82E4461258197510029B3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82E44702581A6D90029B3AE /* PaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E82E44522581974F0029B3AE /* WebKit Pro */ = {
 			isa = PBXGroup;
 			children = (
+				E82E446F2581A6C30029B3AE /* View */,
 				E82E44532581974F0029B3AE /* AppDelegate.swift */,
 				E82E44552581974F0029B3AE /* SceneDelegate.swift */,
 				E82E44572581974F0029B3AE /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				E82E4461258197510029B3AE /* Info.plist */,
 			);
 			path = "WebKit Pro";
+			sourceTree = "<group>";
+		};
+		E82E446F2581A6C30029B3AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E82E44702581A6D90029B3AE /* PaddedTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				E82E44582581974F0029B3AE /* ViewController.swift in Sources */,
 				E82E44542581974F0029B3AE /* AppDelegate.swift in Sources */,
 				E82E44562581974F0029B3AE /* SceneDelegate.swift in Sources */,
+				E82E44712581A6D90029B3AE /* PaddedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
